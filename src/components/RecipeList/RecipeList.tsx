@@ -21,7 +21,7 @@ const RecipeList: React.FC<RecipeListProps> = ({ data, totalHits }) => {
       </Centered>
 
       <RecipeListContainer>
-        {data.hits.length > 0 ? renderRecipes() : renderNoRecipesMessage()}
+        {1 > 0 ? renderRecipes() : renderNoRecipesMessage()}
       </RecipeListContainer>
     </div>
   );
